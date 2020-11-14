@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+}
+nav > ul > li {
+  display: inline;
+  margin-right: 20px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+footer {
+  padding: 10px 20px 0px 20px;
+  color: white;
+  background-color: #00a2c6;
+  font-weight: bold;
+}
+
+section {
+  border: 1px solid #EEEEEE;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 2px 3px 9px rgba(165, 165, 165, 0.22), 5px 1px 13px rgba(175, 175, 175, 0.12);
+  border-radius: 8px;
+}
+
+.medsos {
+  display: flex;
+  justify-content: start;
+}
+.medsos > a > img {
+  padding: 10px;
+  border-radius: 100%;
+  height: 75px;
+  width: 75px;
+}
+
+.justify {
+  display: flex;
+  justify-content: space-around;
+}
+
+.design {
+  border: 1px solid #EEEEEE;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 2px 3px 9px rgba(165, 165, 165, 0.22), 5px 1px 13px rgba(175, 175, 175, 0.12);
+  border-radius: 8px;
+  width: min-content;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */
