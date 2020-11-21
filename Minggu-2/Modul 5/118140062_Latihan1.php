@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="ml-4 mt-2 mb-4 mr-4">
-        <h2>Biodata Mahasiswa</h2>
+        <h2>Menghitung Operasi Operator</h2>
         <form action="" method="post">
             <div class="form-group">
                 <label for="value1">Variabel pertama :</label>
@@ -28,7 +28,7 @@
                 $value1 = $_POST['value1'];
                 $value2 = $_POST['value2'];
                 echo "bilangan 1 = " . $value1 . "<br>";
-                echo "bilangan 2 = " . $value1 . "<br><br>";
+                echo "bilangan 2 = " . $value2 . "<br><br>";
                 echo "Berikut merupakan hasil dari setiap operasi" . "<br><br>";
 
                 echo "PENJUMLAHAN" . "<br>";

@@ -1,5 +1,6 @@
 <?php
     $arr = ["lanirne", "aduh", "qifuat", "toda", "anevi", "samid", "kifuat"];
+    // menggunakan sort agar dapat mengurutkan data yang berbeda beda dan acak
     sort($arr);
     echo "Hasil pengurutan : [";
     for($i = 0;$i<count($arr);$i++){
