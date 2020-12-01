@@ -2,8 +2,7 @@
 Repository Praktikum Pemrograman Web Cluster A1 ITERA
 
 ## Project Description
-Repository ini dibagi menjadi beberapa branch berdasarkan minggu praktikum
-Didalam branch terdapat folder Minggu praktikum, latihan beserta tugas
+Repository ini dibagi menjadi beberapa branch berdasarkan minggu praktikum, didalam branch terdapat folder Minggu praktikum, latihan beserta tugas
 
 ## Built With Love By:
 
