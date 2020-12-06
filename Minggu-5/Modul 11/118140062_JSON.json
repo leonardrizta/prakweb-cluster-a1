@@ -1,0 +1,16 @@
+{
+    "biodata": {
+        "nama" : "Leonard Rizta Anugerah Perdana",
+        "hobby" : "Denger Lagu dan Main Game",
+        "jenisKelamin" : "Laki-Laki",
+        "alamat" : {
+            "perumahan" : "Nusantara Permai",
+            "kecamatan" : "Sukabumi",
+            "kota" : "Bandar Lampung"
+        },
+        "sosialMedia": {
+            "instagram" : "leonardrizta",
+            "linkedin" : "https://linkedin.com/in/leonardrizta"
+        }
+    }
+}

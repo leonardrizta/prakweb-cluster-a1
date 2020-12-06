@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 Modul 10 Minggu 5 Praktikum Pemrograman Web - JavaScript - 118140062 - Leonard Rizta Anugerah Perdana</title>
+</head>
+<body>
+    <div>
+        <h2>getElementByName()</h2>
+        <p name="paragraph1" class="paragraph">Paragraph 1<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatum sunt alias tempora perspiciatis nostrum odit voluptates consequatur, soluta, sit temporibus at labore quo inventore architecto exercitationem maiores, vero doloremque.</p>
+        <button onclick="changeParagraph1()">Change Paragraph 1</button>
+    </div>
+
+    <div>
+        <h2>getElementByClassName()</h2>
+        <p class="paragraph2 paragraph">Paragraph 2<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error iusto ipsa explicabo, pariatur quos modi facere veritatis ipsam officia corrupti laboriosam accusantium, unde beatae est! Quaerat aperiam eos odit eveniet?</p>
+        <button onclick="changeParagraph2()">Change Paragraph 2</button>
+    </div>
+
+    <div>
+        <h2>getElementByTagName()</h2>
+        <p>An unordered list:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+        <button onclick="changeList()">Change List to Ordered List</button>
+        
+    </div>
+
+    <div>
+        <h2>querySelector()</h2>
+        <p class="paragraph4 paragraph">Paragraph 4<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error iusto ipsa explicabo, pariatur quos modi facere veritatis ipsam officia corrupti laboriosam accusantium, unde beatae est! Quaerat aperiam eos odit eveniet?</p>
+        <button onclick="changeParagraph4()">Change Paragraph 4</button>
+    </div>
+
+    <br><br>
+    <button onclick="changeAllParagraph()">Change All Paragraph</button>
+    <script>
+        function changeParagraph1() {
+            var p1 = document.getElementsByName("paragraph1")[0];
+            p1.innerHTML = "Paragraph 1 Has Been Changed!";
+            p1.style.backgroundColor = "lightblue";
+        }
+        function changeParagraph2() {
+            var p2 = document.getElementsByClassName("paragraph2")[0];
+            p2.innerHTML = "Paragraph 2 Has Been Changed!";
+            p2.style.backgroundColor = "lightgreen";
+        }
+        function changeList() {
+            var ul = document.getElementsByTagName('ul')[0];
+            var ol = document.createElement('ol');
+            ol.innerHTML = ul.innerHTML;
+            ul.parentNode.replaceChild(ol, ul);
+        }
+        function changeParagraph4() {
+            document.querySelector(".paragraph4").innerHTML = "Paragraph 4 Has Been Changed!";
+            document.querySelector(".paragraph4").style.backgroundColor = "red";
+        }
+        function changeAllParagraph() {
+            var x = document.querySelectorAll(".paragraph");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.backgroundColor = "pink";
+                x[i].innerHTML = "All Paragraph are same!";
+            }
+        }
+    </script>
+</body>
+</html>
